@@ -23,3 +23,10 @@ html{
     justify-content: center;
     align-items: center;
 }
+.play-btn-div{
+    margin-top: 20px;
+}
+.play-btn-img{
+    height: 20em;
+    width: 35em;
+}
