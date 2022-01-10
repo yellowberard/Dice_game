@@ -1,32 +1,50 @@
-html{
-    width: 100%;
-    height: 100%;
+html {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(18, 188, 165), rgb(44, 189, 42));
 }
-.head{
-    font-size: 60px;
+
+.head {
+  font-size: 60px;
 }
-.whole{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.whole {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.game{
-    display:flex ;
-    gap:20%;
-    justify-content:center ;
-    align-items: center;
+
+.game {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
 }
-.p1,.p2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.p1,
+.p2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.play-btn-div{
-    margin-top: 20px;
+
+.play-btn-div {
+  margin-top: 20px;
 }
-.play-btn-img{
-    height: 20em;
-    width: 35em;
+
+.play-btn-img {
+  height: 20em;
+  width: 35em;
+}
+
+.play-btn {
+  padding: 1%;
+}
+
+.play-btn:hover {
+  cursor: pointer;
 }
