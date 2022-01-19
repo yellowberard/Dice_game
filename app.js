@@ -28,10 +28,11 @@ playButton.addEventListener("click", () => { //For Dice 1
 
     function decision() {
         if (randomNum1 > randomNum2) {
-            document.querySelector("h1").innerText = "Player 1 Wins"
+            document.querySelector("h1").innerText = "Player 1 Wins by " + (randomNum1 - randomNum2)
+
 
         } else if (randomNum1 < randomNum2) {
-            document.querySelector("h1").innerText = "Player 2 Wins"
+            document.querySelector("h1").innerText = "Player 2 Wins by " + (randomNum2 - randomNum1)
         } else if (randomNum1 === randomNum2) {
             document.querySelector("h1").innerText = "It's a Draw"
         }

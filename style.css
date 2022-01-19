@@ -4,8 +4,14 @@ html {
   background: linear-gradient(to right, rgb(18, 188, 165), rgb(44, 189, 42));
 }
 
+.header {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
 .head {
-  font-size: 60px;
+  font-size: 40px;
+  font-weight: 100;
 }
 
 .whole {
@@ -47,4 +53,17 @@ html {
 
 .play-btn:hover {
   cursor: pointer;
+}
+
+.play-btn-div {
+  display: flex;
+  column-gap: 1%;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-btn-div p {
+  width: 300px;
+  font-size: 28px;
+  font-weight: 800;
 }
